@@ -1,0 +1,26 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "testing practice",
+  "homepage": "https://github.com/olopok/Testing#readme",
+  "bugs": {
+    "url": "https://github.com/olopok/Testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olopok/Testing.git"
+  },
+  "license": "ISC",
+  "author": "olopok",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
+    "jest": "^30.0.4"
+  }
+}
