@@ -1,7 +1,4 @@
 export default function capitalizeFirstLetter(string) {
-
-  // return string.charAt(0).toUpperCase() + string.slice(1);
-  let firstLetter = string.charAt(0);
-  firstLetter = firstLetter.toUpperCase();
-  return string.replace(/^[a-z]/, firstLetter);
+  //All the whitespace are removed before to upper case the first letter.
+  return string.trimStart().replace(/^[a-z]/, (c) => c.toUpperCase());
 }
